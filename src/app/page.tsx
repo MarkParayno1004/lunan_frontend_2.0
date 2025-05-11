@@ -1,12 +1,12 @@
-import Image from "next/image";
-import Button from "@/components/ui/Buttons/button";
+import React from "react";
+import Welcome from "@/pages/landingPage/welcome";
+import Process from "./pages/landingPage/process";
 
 export default function Page() {
   return (
-    <div>
-      <h1>Hello, Next.js 3!</h1>
-      <Image src="/file.svg" alt="file_svg" width={100} height={100} />
-      <Button />
-    </div>
+    <React.Fragment>
+      <Welcome />
+      <Process />
+    </React.Fragment>
   );
 }
