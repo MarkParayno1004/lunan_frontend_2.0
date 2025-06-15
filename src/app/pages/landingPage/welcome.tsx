@@ -3,7 +3,6 @@ import Link from "next/link";
 
 export default function Welcome() {
   return (
-    <div>
       <div className="bg-primary">
         <div
           className="grid grid-flow-col auto-cols-max min-h-128
@@ -43,6 +42,5 @@ export default function Welcome() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
